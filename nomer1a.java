@@ -18,6 +18,14 @@ public class JavaApplication1 {
          System.out.print(" "+n3);    
          n1=n2;    
          n2=n3;    
+            if ( n3 % 2 == 0) { // Check if it's even
+                int sum = 0;
+                sum = sum + n3;
+                System.out.println(sum);
+            }
+            else {
+
+            }
         }    
     }  
 }
